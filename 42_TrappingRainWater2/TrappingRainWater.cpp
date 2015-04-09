@@ -14,6 +14,7 @@
  * height of left and right separately, which is like a one-side wall of partial container. 
  * Fix the higher one and flow water from the lower part. For example, if current height of left is lower, 
  * we fill water in the left bin. Until left meets right, we filled the whole container.
+ */
 
 class Solution {
 public:
