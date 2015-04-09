@@ -15,25 +15,36 @@
  * Fix the higher one and flow water from the lower part. For example, if current height of left is lower, 
  * we fill water in the left bin. Until left meets right, we filled the whole container.
  */
+#include <iostream>
+using namespace std;
 
 class Solution {
 public:
     int trap(int A[], int n) {
-        int left=0; int right=n-1;
-        int res=0;
-        int maxleft=0, maxright=0;
-        while(left<=right){
-            if(A[left]<=A[right]){
-                if(A[left]>=maxleft) maxleft=A[left];
-                else res+=maxleft-A[left];
+        int left = 0, right = n-1;
+        int res = 0;
+        int maxleft = 0, maxright = 0;
+        while(left <= right){
+            if(A[left] <= A[right]){
+                if(A[left] >= maxleft) maxleft = A[left];
+                else res += maxleft-A[left];
                 left++;
             }
             else{
-                if(A[right]>=maxright) maxright= A[right];
-                else res+=maxright-A[right];
+                if(A[right] >= maxright) maxright = A[right];
+                else res += maxright-A[right];
                 right--;
             }
         }
         return res;
     }
 };
+
+
+int main(void) {
+    Solution so;
+    int A[] = {0,1,0,2,1,0,1,3,2,1,2,1};
+    cout << so.trap(A, sizeof(A)/sizeof(*A)) << endl;
+
+    return 0;
+}
