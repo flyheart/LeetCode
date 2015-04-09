@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "47_PermutationsII", "47_PermutationsII.vcxproj", "{44A3D6D9-A344-42AD-BD3A-B27B2BA70884}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44A3D6D9-A344-42AD-BD3A-B27B2BA70884}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44A3D6D9-A344-42AD-BD3A-B27B2BA70884}.Debug|Win32.Build.0 = Debug|Win32
+		{44A3D6D9-A344-42AD-BD3A-B27B2BA70884}.Release|Win32.ActiveCfg = Release|Win32
+		{44A3D6D9-A344-42AD-BD3A-B27B2BA70884}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

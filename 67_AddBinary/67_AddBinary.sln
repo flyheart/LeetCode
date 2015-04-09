@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "67_AddBinary", "67_AddBinary.vcxproj", "{DA7736C8-886E-4D22-99AC-653339D4F17D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA7736C8-886E-4D22-99AC-653339D4F17D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DA7736C8-886E-4D22-99AC-653339D4F17D}.Debug|Win32.Build.0 = Debug|Win32
+		{DA7736C8-886E-4D22-99AC-653339D4F17D}.Release|Win32.ActiveCfg = Release|Win32
+		{DA7736C8-886E-4D22-99AC-653339D4F17D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_LongestCommonPrefix", "14_LongestCommonPrefix.vcxproj", "{24FF6680-5FF6-4547-808C-D1214AB6EB33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24FF6680-5FF6-4547-808C-D1214AB6EB33}.Debug|Win32.ActiveCfg = Debug|Win32
+		{24FF6680-5FF6-4547-808C-D1214AB6EB33}.Debug|Win32.Build.0 = Debug|Win32
+		{24FF6680-5FF6-4547-808C-D1214AB6EB33}.Release|Win32.ActiveCfg = Release|Win32
+		{24FF6680-5FF6-4547-808C-D1214AB6EB33}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
