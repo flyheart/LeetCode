@@ -44,6 +44,7 @@ int main(void) {
     Solution so;
     int A[] = {0, 1, 2};
     // just for run
+    // test
     cout << so.searchInsert(A, sizeof(A)/sizeof(*A), 4) << endl;
     cout << so.searchInsert(A, sizeof(A)/sizeof(*A), -1) << endl;
 
