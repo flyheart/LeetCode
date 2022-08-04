@@ -6,6 +6,8 @@
 
  * You may assume no duplicates in the array.
 
+ * test
+
  * Here are few examples.
  * [1,3,5,6], 5 → 2
  * [1,3,5,6], 2 → 1
